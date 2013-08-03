@@ -30,25 +30,22 @@
 
         <section id="main_content">
           <h3>
-<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About.</h3>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h3>
 
 <p>Bunch of JavaScript recipes for developer with strongly-typed languages (C++/Java) background</p>
 
 <h3>
-<a name="topics" class="anchor" href="#topics"><span class="octicon octicon-link"></span></a>Topics</h3>
+<a name="binding" class="anchor" href="#binding"><span class="octicon octicon-link"></span></a>Binding</h3>
 
 <h4>
-<a name="binding" class="anchor" href="#binding"><span class="octicon octicon-link"></span></a>Binding</h4>
-
-<h5>
-<a name="must-read" class="anchor" href="#must-read"><span class="octicon octicon-link"></span></a>Must read</h5>
+<a name="must-read" class="anchor" href="#must-read"><span class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li>
 <a href="http://alistapart.com/article/getoutbindingsituations">Getting Out of Binding Situations in JavaScript</a> by Christophe Porteneuve</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind?redirectlocale=en-US&amp;redirectslug=JavaScript%2FReference%2FGlobal_Objects%2FFunction%2Fbind">Function.prototype.bind definition</a></li>
-</ul><h5>
-<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h5>
+</ul><h4>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h4>
 
 <pre><code>var x = 9; 
 var module = {
@@ -64,6 +61,22 @@ getX(); // 9, because in this case, "this" refers to the global object
 // create a new function with 'this' bound to module
 var boundGetX = getX.bind(module);
 boundGetX(); // 81
+</code></pre>
+
+<h3>
+<a name="sorting" class="anchor" href="#sorting"><span class="octicon octicon-link"></span></a>Sorting</h3>
+
+<h4>
+<a name="example-1" class="anchor" href="#example-1"><span class="octicon octicon-link"></span></a>Example</h4>
+
+<pre><code>    [
+      {name: 'Dominika',age: 2},
+      {name: 'Lilia',   age: 31},
+      {name: 'Andrei',  age: 32},
+      {name: 'Jan',     age: 6}
+    ].sort(function(a, b) {
+      return a.age - b.age;
+    })
 </code></pre>
 
 <h3>
