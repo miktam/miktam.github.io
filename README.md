@@ -1,4 +1,4 @@
-miktam.github.io
+Bunch of JavaScript recipes for developers and architects with strongly-typed languages (C++/Java) background
 ================
 
-JavaScript for Node.JS without prior JS front-end experience
+http://miktam.github.io
