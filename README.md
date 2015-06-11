@@ -1,4 +1,4 @@
-Bunch of JavaScript recipes for developers and architects with strongly-typed languages (C++/Java) background
+JavaScript recipes for developers and architects
 ================
 
 http://miktam.github.io
