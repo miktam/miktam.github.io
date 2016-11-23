@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="JavaScript recipes    : JavaScript for Node.JS for newcomers from Java/C++">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>JavaScript recipes   </title>
+    <title>JavaScript recipes    by miktam</title>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/miktam">View on GitHub</a>
+    <header>
+      <div class="container">
+        <h1>JavaScript recipes   </h1>
+        <h2>JavaScript for Node.JS for newcomers from Java/C++</h2>
 
-          <h1 id="project_title">JavaScript recipes   </h1>
-          <h2 id="project_tagline">JavaScript for Node.JS for newcomers from Java/C++</h2>
+        <section id="downloads">
+          <a href="https://github.com/miktam" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+    <div class="container">
+      <section id="main_content">
         <h3>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
 
 <p>Bunch of JavaScript recipes for developers and architects with strongly-typed languages (C++/Java) background</p>
 
 <h2>
-<a id="architecture" class="anchor" href="#architecture" aria-hidden="true"><span class="octicon octicon-link"></span></a>Architecture</h2>
+<a id="architecture" class="anchor" href="#architecture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Architecture</h2>
 
 <h4>
-<a id="microservices" class="anchor" href="#microservices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Microservices</h4>
+<a id="microservices" class="anchor" href="#microservices" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Microservices</h4>
 
 <ul>
 <li>Delivering functionality via network (module + web interface) using lightweight protocol</li>
@@ -44,7 +43,7 @@
 </ul>
 
 <h5>
-<a id="pros" class="anchor" href="#pros" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pros</h5>
+<a id="pros" class="anchor" href="#pros" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pros</h5>
 
 <ul>
 <li>Easy to evolve and scale single component</li>
@@ -52,7 +51,7 @@
 </ul>
 
 <h5>
-<a id="cons" class="anchor" href="#cons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cons</h5>
+<a id="cons" class="anchor" href="#cons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cons</h5>
 
 <ul>
 <li>Deployment of multiple components (addressed by automation and CD)</li>
@@ -60,17 +59,17 @@
 </ul>
 
 <h2>
-<a id="javascript---intro" class="anchor" href="#javascript---intro" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript - Intro</h2>
+<a id="javascript---intro" class="anchor" href="#javascript---intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript - Intro</h2>
 
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A re-introduction to JavaScript (JS Tutorial) by Mozilla</a></li>
 </ul>
 
 <h2>
-<a id="functions" class="anchor" href="#functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Functions</h2>
+<a id="functions" class="anchor" href="#functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functions</h2>
 
 <h4>
-<a id="must-read" class="anchor" href="#must-read" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read" class="anchor" href="#must-read" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a></li>
@@ -80,10 +79,10 @@
 </ul>
 
 <h3>
-<a id="binding" class="anchor" href="#binding" aria-hidden="true"><span class="octicon octicon-link"></span></a>Binding</h3>
+<a id="binding" class="anchor" href="#binding" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Binding</h3>
 
 <h4>
-<a id="must-read-1" class="anchor" href="#must-read-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-1" class="anchor" href="#must-read-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li>
@@ -92,7 +91,7 @@
 </ul>
 
 <h4>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h4>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h4>
 
 <pre><code>var x = 9; 
 var module = {
@@ -111,20 +110,20 @@ boundGetX(); // 81
 </code></pre>
 
 <h2>
-<a id="collections" class="anchor" href="#collections" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collections</h2>
+<a id="collections" class="anchor" href="#collections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collections</h2>
 
 <h3>
-<a id="arrays" class="anchor" href="#arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arrays</h3>
+<a id="arrays" class="anchor" href="#arrays" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Arrays</h3>
 
 <ul>
 <li><a href="http://stackoverflow.com/questions/8073673/how-can-i-add-new-array-elements-at-the-top-of-an-array-in-javascript">Add elements at the top of an array</a></li>
 </ul>
 
 <h3>
-<a id="sorting" class="anchor" href="#sorting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sorting</h3>
+<a id="sorting" class="anchor" href="#sorting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sorting</h3>
 
 <h4>
-<a id="example-1" class="anchor" href="#example-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h4>
+<a id="example-1" class="anchor" href="#example-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h4>
 
 <pre><code>    [
       {name: 'Dominika',age: 2},
@@ -137,10 +136,10 @@ boundGetX(); // 81
 </code></pre>
 
 <h2>
-<a id="async" class="anchor" href="#async" aria-hidden="true"><span class="octicon octicon-link"></span></a>Async</h2>
+<a id="asyncronous-javascript" class="anchor" href="#asyncronous-javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Asyncronous JavaScript</h2>
 
 <h4>
-<a id="must-read-2" class="anchor" href="#must-read-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-2" class="anchor" href="#must-read-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="https://github.com/raganwald/homoiconic/blob/master/2012/01/captain-obvious-on-javascript.md">Captain Obvious on JavaScript</a></li>
@@ -148,20 +147,30 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="compiled-to-javascript" class="anchor" href="#compiled-to-javascript" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compiled to JavaScript</h3>
+<a id="promises" class="anchor" href="#promises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Promises</h3>
 
 <h4>
-<a id="must-read-3" class="anchor" href="#must-read-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-3" class="anchor" href="#must-read-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
+
+<ul>
+<li><a href="https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html">We have a problem with promises</a></li>
+</ul>
+
+<h3>
+<a id="compiled-to-javascript" class="anchor" href="#compiled-to-javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compiled to JavaScript</h3>
+
+<h4>
+<a id="must-read-4" class="anchor" href="#must-read-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="http://altjs.org/">altJS</a></li>
 </ul>
 
 <h2>
-<a id="nodejs" class="anchor" href="#nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Node.JS</h2>
+<a id="nodejs" class="anchor" href="#nodejs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Node.JS</h2>
 
 <h3>
-<a id="tutorials" class="anchor" href="#tutorials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorials</h3>
+<a id="tutorials" class="anchor" href="#tutorials" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutorials</h3>
 
 <ul>
 <li>
@@ -170,27 +179,27 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="debugging" class="anchor" href="#debugging" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debugging</h3>
+<a id="debugging" class="anchor" href="#debugging" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Debugging</h3>
 
 <ul>
 <li><a href="http://www.infoq.com/presentations/Debugging-Production-Systems">And It All Went Horribly Wrong: Debugging Production Systems</a></li>
 </ul>
 
 <h3>
-<a id="event-loop" class="anchor" href="#event-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Event loop</h3>
+<a id="event-loop" class="anchor" href="#event-loop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event loop</h3>
 
 <h4>
-<a id="must-read-4" class="anchor" href="#must-read-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-5" class="anchor" href="#must-read-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="http://developer.yahoo.com/blogs/ydn/part-1-understanding-event-loops-writing-great-code-11401.html">Event loop</a></li>
 </ul>
 
 <h3>
-<a id="generators" class="anchor" href="#generators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generators</h3>
+<a id="generators" class="anchor" href="#generators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generators</h3>
 
 <h4>
-<a id="must-read-5" class="anchor" href="#must-read-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-6" class="anchor" href="#must-read-6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="http://spion.github.io/posts/analysis-generators-and-other-async-patterns-node.html">Analysis of generators and other async patterns in node</a></li>
@@ -198,10 +207,10 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="express" class="anchor" href="#express" aria-hidden="true"><span class="octicon octicon-link"></span></a>Express</h3>
+<a id="express" class="anchor" href="#express" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Express</h3>
 
 <h4>
-<a id="must-read-6" class="anchor" href="#must-read-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-7" class="anchor" href="#must-read-7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li>
@@ -210,10 +219,10 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="performance" class="anchor" href="#performance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Performance</h3>
+<a id="performance" class="anchor" href="#performance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Performance</h3>
 
 <h4>
-<a id="must-read-7" class="anchor" href="#must-read-7" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-8" class="anchor" href="#must-read-8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="http://thegoleffect.com/2013/08/node-js-benchmarking-introducing-flod/">Node.js Benchmarking: Introducing Flod</a></li>
@@ -222,10 +231,10 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="hosting" class="anchor" href="#hosting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hosting</h3>
+<a id="hosting" class="anchor" href="#hosting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hosting</h3>
 
 <h4>
-<a id="must-read-8" class="anchor" href="#must-read-8" aria-hidden="true"><span class="octicon octicon-link"></span></a>Must read</h4>
+<a id="must-read-9" class="anchor" href="#must-read-9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Must read</h4>
 
 <ul>
 <li><a href="https://devcenter.heroku.com/articles/nodejs">Heroku</a></li>
@@ -233,7 +242,7 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="great-books" class="anchor" href="#great-books" aria-hidden="true"><span class="octicon octicon-link"></span></a>Great books</h3>
+<a id="great-books" class="anchor" href="#great-books" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Great books</h3>
 
 <ul>
 <li><a href="http://book.mixu.net/node/">Mixu's Node.js book</a></li>
@@ -242,7 +251,7 @@ boundGetX(); // 81
 </ul>
 
 <h3>
-<a id="frameworks" class="anchor" href="#frameworks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Frameworks</h3>
+<a id="frameworks" class="anchor" href="#frameworks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Frameworks</h3>
 
 <ul>
 <li><a href="http://nodeframework.com/">Node.js frameworks</a></li>
@@ -251,17 +260,10 @@ boundGetX(); // 81
 <hr>
 
 <h3>
-<a id="licence" class="anchor" href="#licence" aria-hidden="true"><span class="octicon octicon-link"></span></a>Licence</h3>
+<a id="licence" class="anchor" href="#licence" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Licence</h3>
 
 <p>MIT</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
     </div>
 
               <script type="text/javascript">
@@ -274,7 +276,6 @@ boundGetX(); // 81
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
