@@ -1,0 +1,5 @@
+name: Javascript Recipes
+markdown: kramdown
+permalink: /blog/:title
+# Google services
+google_analytics: UA-42935824-1

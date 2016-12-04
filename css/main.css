@@ -1,0 +1,64 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: #bbbbbb;
+}
+
+.footer p {
+  float: right;
+  margin: 0;
+  margin-top: 30px;
+}
+
+h1.brand-name a {
+  /*color: #00631A;*/
+  color: #000000;
+  text-decoration: underline;
+}
+
+.main-container {
+  font-family: "Lucida Console", Monaco, monospace;
+  margin-top: 3rem;
+}
+nav.sidebar ul {
+  list-style: none;
+}
+
+nav.sidebar ul a {
+  color: #054B85;
+}
+
+nav.sidebar ul a:hover {
+  color: #CE3D00;
+}
+
+div.content-page {
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+
+div.content-block {
+  margin-bottom: 4rem;
+}
+div.content-block h2 {
+  color: #444444;
+}
+
+div.content-block p {
+  color: #666666;
+}
+
+ul.posts span {
+  color: #151515;
+}

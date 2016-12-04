@@ -1,0 +1,11 @@
+<ul class="posts">
+    {% for post in site.posts limit:11 %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>  <span>{{ post.date | date_to_string }}</span>  </li>
+    {% endfor %}
+  </ul>
+  <div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-4">
+    <a href="/blog/">Older Recipes</a>
+  </div>
+  </div>
