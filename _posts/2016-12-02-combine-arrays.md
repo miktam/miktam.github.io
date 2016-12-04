@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Copy Arrays in ES6"
-date: 2016-12-04
+date: 2016-12-02
 ---
 {% highlight javascript %}
  const first = [1, 2, 3]

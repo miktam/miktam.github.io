@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sorting Array by Attribute in ES6"
-date: 2016-12-04
+date: 2016-12-03
 ---
 {% highlight javascript %}
  [
