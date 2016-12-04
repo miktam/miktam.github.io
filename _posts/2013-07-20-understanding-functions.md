@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding functions"
+title: "Understanding Functions"
 date: 2013-07-20
 ---
 ### Must read

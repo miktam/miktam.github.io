@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Sorting Arrays in ES6"
+title: "Sorting Array by Attribute in ES6"
 date: 2016-12-04
 ---
-### Sort array by attribute in ES6
 {% highlight javascript %}
  [
   {name: 'Dominika',age: 2},
@@ -18,3 +17,7 @@ date: 2016-12-04
    { name: 'Andrei', age: 32 } ]
  */
 {% endhighlight %}
+
+### Why?
+- [Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [Implicit return in consise function body](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Function_body)
