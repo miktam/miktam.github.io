@@ -1,5 +1,3 @@
 name: Javascript Recipes
-markdown: redcarpet
+markdown: kramdown
 permalink: /recipes/:title
-# Google services
-google_analytics: UA-42935824-1
