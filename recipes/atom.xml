@@ -7,9 +7,9 @@ permalink: /feed/
 
 	<title>Javascript recipes</title>
 	<link href="atom.xml" rel="self"/>
-	<link href="/blog"/>
+	<link href="/recipes"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>/blog</id>
+	<id>/recipes</id>
 	<author>
 		<name>Javascript Recipes</name>
 		<email></email>
